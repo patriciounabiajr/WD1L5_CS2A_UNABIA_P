@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b9ccf5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.registration {
+    background-color: #5178cc;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 370px;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.registration h1 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #0b183d;
+}
+
+.registration label {
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.registration input {
+    width: 100%;
+    padding: 9px 10px;
+    border: 1px solid darkblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    outline: none;
+}
+
+.registration button {
+    width: 100%;
+    background-color: #203886;
+    color: white;
+    padding: 11px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 22px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.registration button:hover {
+    background-color: #172a63;
+}
+
+
+
+.login {
+    background-color: #5178cc;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 370px;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.login h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.login label {
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.login input {
+    width: 100%;
+    padding: 9px 10px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    outline: none;
+    background-color: #ffffff;
+}
+
+.login button {
+    width: 100%;
+    background-color: #203886;
+    color: white;
+    padding: 11px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 22px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    transition: background-color 0.5s ease;
+}
+
+.login button:hover {
+    background-color: #172a63;
+}
+
+.registration h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    color: #0b183d;
+    font-weight: bold;
+}
+
+.registration h3 {
+    color: #0b183d;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.registration ul {
+    margin: 0;
+    font-size: 14px;
+}
+
+.registration li {
+    margin-bottom: 5px;
+}
